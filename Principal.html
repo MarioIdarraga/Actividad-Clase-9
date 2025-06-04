@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formula 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <span class="empresa">Corredores Unidos Argentina</span>
+    <span class="fecha">19-05-2025</span>
+  </header>
+
+  <main>
+    <h1 class="titulo-principal">CARRERA DEL FIN DE SEMANA</h1>
+    <p class="subtitulo">¿Gana colapinto este fin de semana?</p>
+
+    <div class="imagen-principal">
+      <img src="img/colapinto.jpg" alt="Colapinto">
+    </div>
+
+    <section class="tres-columnas">
+      <div class="columna">
+        <h4>COLAPINTO Y UNA DEUDA EN IMOLA?</h4>
+        <h3 class="titulo-col">Algunas apreciaciones de colapinto en Italia</h3>
+        <p>Colapinto terminó 16º en su debut en Imola. Un choque en clasificación y una penalización lo 
+            relegaron en la parrilla. La estrategia y el Virtual Safety Car complicaron su carrera, pero 
+            destacó que logró adaptarse mejor al auto y acercarse al rendimiento de Gasly.</p>
+      </div>
+      <div class="columna">
+        <h4>MONACO CON GLAMOUR Y AUTOS</h4>
+        <h3 class="titulo-col">Monaco con buenas sensaciones?</h3>
+        <p>Este fin de semana, Colapinto regresará a Mónaco, esta vez como piloto de Fórmula 1 con el equipo Alpine. 
+            Será su segunda carrera en la máxima categoría, tras su debut en el Gran Premio de Emilia-Romaña. 
+            El circuito urbano de Montecarlo es familiar para él, y se espera que su experiencia previa le permita 
+            adaptarse rápidamente y buscar un buen resultado.</p>
+      </div>
+      <div class="columna">
+        <h4>5 CARRERAS NO MAS?</h4>
+        <h3 class="titulo-col">Vemos futuro de colapinto en la formula 1?</h3>
+        <p>Franco Colapinto fue anunciado por Alpine para disputar cinco Grandes Premios de Fórmula 1 en 2025, 
+            comenzando en Imola y continuando por Mónaco, España, Canadá y Austria . Sin embargo, el asesor 
+            ejecutivo Flavio Briatore aclaró que no hay un límite fijo de carreras: si Colapinto es rápido,
+             evita accidentes y suma puntos, podría continuar más allá de esas cinco fechas .
+        </p>
+      </div>
+    </section>
+
+    <section class="seccion-final">
+      <img src="img/monaco.jpg" alt="Imagen monaco">
+      <div class="texto-final">
+        <h3>Monaco de Fiesta con la Formula 1</h3>
+        <p>
+            Este fin de semana se vivirá de nuevo en Mónaco la carrera de la Fórmula 1, en donde 
+            se dará el encuentro de glamour y autos con los mejores corredores de autos del mundo.
+        </p>
+        <p>
+            Una fiesta que no tiene límites, en donde todos los corredores son protagonistas de 
+            esta carrera.
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <form id="formulario-suscripcion" class="formulario">
+  <h2>Suscripción al Diario Online - Corredores Unidos Argentina</h2>
+
+  <div class="form-contenedor">
+    <div class="columna-form">
+      <label>Nombre completo:
+        <input type="text" id="nombre" name="nombre" required>
+        <small class="error" id="error-nombre"></small>
+      </label>
+
+      <label>Email:
+        <input type="email" id="email" name="email" required>
+        <small class="error" id="error-email"></small>
+      </label>
+
+      <label>Contraseña:
+        <input type="password" id="contrasena" name="contrasena" required>
+        <small class="error" id="error-contrasena"></small>
+      </label>
+
+      <label>Repetir contraseña:
+        <input type="password" id="repetir-contrasena" name="repetir-contrasena" required>
+        <small class="error" id="error-repetir"></small>
+      </label>
+
+      <label>Edad:
+        <input type="number" id="edad" name="edad" required>
+        <small class="error" id="error-edad"></small>
+      </label>
+    </div>
+
+    <div class="columna-form">
+      <label>Teléfono:
+        <input type="text" id="telefono" name="telefono" required>
+        <small class="error" id="error-telefono"></small>
+      </label>
+
+      <label>Dirección:
+        <input type="text" id="direccion" name="direccion" required>
+        <small class="error" id="error-direccion"></small>
+      </label>
+
+      <label>Ciudad:
+        <input type="text" id="ciudad" name="ciudad" required>
+        <small class="error" id="error-ciudad"></small>
+      </label>
+
+      <label>Código Postal:
+        <input type="text" id="cp" name="cp" required>
+        <small class="error" id="error-cp"></small>
+      </label>
+
+      <label>DNI:
+        <input type="text" id="dni" name="dni" required>
+        <small class="error" id="error-dni"></small>
+      </label>
+    </div>
+  </div>
+
+  <div class="boton-enviar">
+    <button type="submit">Enviar</button>
+  </div>
+</form>
+
+
+  <footer>
+    <span class="pie">Por una Argentina con Formula 1</span>
+    <span class="numero-pagina">1</span>
+  </footer>
+
+  <script src="validaciones.js"></script>
+
+</body>
+</html>
